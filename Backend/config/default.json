@@ -1,4 +1,4 @@
 {
-    "mongoURI":"",
+    "mongoURI":"mongodb+srv://dakshrana1812:BtvY50pMagtMrEri@cluster0.upzxe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "jwtSecret": "295Major"
  }
