@@ -505,7 +505,7 @@
             // Retrieve the token from local storage
             const token = localStorage.getItem('token');
             // Check if the user is authenticated
-            fetch('http://18.191.166.16:5000/api/auth', {
+            fetch('http://localhost:5000/api/auth', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -598,7 +598,7 @@
   <script>
     userId = localStorage.getItem("uid")
     // Fetch workout data from the backend API
-    fetch('http://18.191.166.16:5000/exercise/getAllExercises', {
+    fetch('http://localhost:5000/exercise/getAllExercises', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

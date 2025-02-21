@@ -208,7 +208,7 @@ const showPasswordButton = document.getElementById('show-password');
             
             localStorage.setItem("uid", username);
 
-			const response = await fetch('http://18.191.166.16:5000/api/login2', {
+			const response = await fetch('http://localhost:5000/api/login2', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'

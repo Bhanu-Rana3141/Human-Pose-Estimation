@@ -37,7 +37,7 @@ export default class SettingsHandler {
   };
 
   saveToDatabase = () => {
-    fetch('http://18.191.166.16:5000/exercise/settingsChange', {
+    fetch('http://localhost:5000/exercise/settingsChange', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
