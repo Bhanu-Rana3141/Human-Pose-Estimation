@@ -237,7 +237,7 @@ localStorage.setItem('DBWOSettings', JSON.stringify(settings));
         // Token received, store it in localStorage or a secure cookie
         localStorage.setItem('token', data.token);
         // Redirect the user to the dashboard or perform any other necessary actions
-        window.location.href = 'http://18.191.166.16:8080/dashboard.html';
+        window.location.href = 'http://localhost:8080/dashboard.html';
       } else {
         // Handle invalid credentials or other login errors
         errorMessage.style.display = 'block';
